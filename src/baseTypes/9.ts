@@ -29,4 +29,20 @@ const page2: Page = {
   status: 'close',
 }
 
-export {};
+export { };
+
+//or another vatiant
+// type PageInfo = {
+//   title: string,
+//   likes: number,
+//   accounts: string[],
+//   status: 'open' | 'close',
+// }
+// type PageDetails = {
+//   details?: {
+//   createAt: Date,
+//   updateAt: Date,
+//   }
+// }
+// type Page = PageInfo & PageDetails;
+
